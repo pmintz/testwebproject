@@ -38,7 +38,7 @@ public class App extends HttpServlet {
 		// TODO Auto-generated method stub
 	   
 //logger.debug("I am piggy backing: " + System.currentTimeMillis());;
-	   File file = new File("C:\\Users\\mscarpac\\OneDrive - Capgemini\\Documents\\S-592700 Remediate XML Security Issue\\log4j-application.log");
+	   File file = new File("C:\\Users\\mscarpac\\OneDrive - Capgemini\\Documents\\S-600214 Remediate Security Finding For XML Parsing In DTI Infosys\\log4j-application.log");
 	   try(FileWriter fw = new FileWriter(file);){
 	   Date currentDate = new Date(System.currentTimeMillis());
 	   fw.write(currentDate.toString());
